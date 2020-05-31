@@ -6,5 +6,5 @@ import java.io.IOException;
 import java.util.List;
 
 public interface QuestionDao {
-    List<Question> getQuestions(String path) throws IOException;
+    List<Question> getQuestions() throws IOException;
 }

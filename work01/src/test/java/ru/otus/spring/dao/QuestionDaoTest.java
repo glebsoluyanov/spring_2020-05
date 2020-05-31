@@ -10,8 +10,8 @@ import java.util.List;
 public class QuestionDaoTest {
     @Test
     public void getQuestionsTest() throws IOException {
-        QuestionDao questionDao = new QuestionDaoImpl();
-        List<Question> questions = questionDao.getQuestions("/questions.csv");
+        QuestionDao questionDao = new QuestionDaoImpl("/questions.csv");
+        List<Question> questions = questionDao.getQuestions();
 
     }
 }

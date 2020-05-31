@@ -13,7 +13,7 @@ public class Examiner33ServiceImpl implements Examiner33Service {
     private final QuestionDao questionDao;
 
     public void start() throws IOException {
-        List<Question> questionList = questionDao.getQuestions("/questions.csv");
+        List<Question> questionList = questionDao.getQuestions();
         for (Question question : questionList){
             System.out.println("Question: " + question.getQuestion());
             System.out.println("Answer: " + question.getAnswer());

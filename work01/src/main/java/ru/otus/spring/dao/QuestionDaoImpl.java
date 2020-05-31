@@ -15,7 +15,9 @@ import java.util.List;
 @RequiredArgsConstructor
 public class QuestionDaoImpl implements QuestionDao {
 
-    public List<Question> getQuestions(String path) throws IOException {
+    private final String path;
+
+    public List<Question> getQuestions() throws IOException {
         InputStream is = this.getClass().getResourceAsStream(path);
         List<Question> questionList = new ArrayList<>();
 
