@@ -23,3 +23,6 @@ target/
 /nbdist/
 /.nb-gradle/
 work03/.mvn/
+work05/mvnw
+work05/mvnw.cmd
+work05/.mvn/
