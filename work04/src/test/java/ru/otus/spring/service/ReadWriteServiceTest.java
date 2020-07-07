@@ -42,7 +42,7 @@ class ReadWriteServiceTest {
     @Test
     void writeln() {
         readWriteService.writeln(TEST_WRITE_TEXT);
-        assertThat(byteArrayOutputStream.toString()).isEqualTo(TEST_WRITE_TEXT+"\r\n");
+        assertThat(byteArrayOutputStream.toString()).isEqualTo(TEST_WRITE_TEXT+System.getProperty("line.separator"));
     }
 
     @DisplayName("read \"" + TEST_READ_TEXT + "\"")
