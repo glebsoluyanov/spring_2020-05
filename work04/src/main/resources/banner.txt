@@ -1,0 +1,6 @@
+  _ _ ${Ansi.GREEN}______                     _               ${Ansi.RED} ____ ____ ${Ansi.DEFAULT} _ _
+ ( | )${Ansi.GREEN}  ____|                   (_)              ${Ansi.RED}|${AnsiBackground.RED}___ ${AnsiBackground.DEFAULT}\${AnsiBackground.RED}___ ${AnsiBackground.DEFAULT}\${Ansi.DEFAULT}( | )
+  V V${Ansi.GREEN}| |__  __  ____ _ _ __ ___  _ _ __   ___ _ __${Ansi.RED} __)${AnsiBackground.RED} ${AnsiBackground.DEFAULT}|__)${AnsiBackground.RED} ${AnsiBackground.DEFAULT}|${Ansi.DEFAULT}V V
+     ${Ansi.GREEN}|  __| \ \/ / _` | '_ ` _ \| | '_ \ / _ \ '__${Ansi.RED}|${AnsiBackground.RED}__ ${AnsiBackground.DEFAULT}<|${AnsiBackground.RED}__ ${AnsiBackground.DEFAULT}<${Ansi.DEFAULT}
+     ${Ansi.GREEN}| |____ >  < (_| | | | | | | | | | |  __/ |${Ansi.RED}  ___)${AnsiBackground.RED} ${AnsiBackground.DEFAULT}|__)${AnsiBackground.RED} ${AnsiBackground.DEFAULT}|${Ansi.DEFAULT}
+     ${Ansi.GREEN}|______/_/\_\__,_|_| |_| |_|_|_| |_|\___|_|${Ansi.RED} |${AnsiBackground.RED}____${AnsiBackground.DEFAULT}/${AnsiBackground.RED}____${AnsiBackground.DEFAULT}/${Ansi.DEFAULT}

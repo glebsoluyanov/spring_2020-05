@@ -1,0 +1,9 @@
+spring:
+  shell:
+    interactive:
+      enabled: false
+
+examiner33:
+  questions-file: /questions.csv
+  questions-requiredcorrectanswers: 3
+  locale: ru_RU

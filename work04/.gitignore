@@ -1,4 +1,8 @@
+HELP.md
 target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 
 ### STS ###
 .apt_generated
@@ -17,16 +21,11 @@ target/
 
 ### NetBeans ###
 /nbproject/private/
-/build/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-work03/.mvn/
-work05/mvnw
-work05/mvnw.cmd
-work05/.mvn/
-work04/mvnw
-work04/mvnw.cmd
-work04/.mvn/
-spring-shell.log
+build/
+
+### VS Code ###
+.vscode/
